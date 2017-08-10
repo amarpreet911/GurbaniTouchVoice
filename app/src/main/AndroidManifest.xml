@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="starter.app.design.com.dgn">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/baba_ji"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SplashScreen"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"
+            android:screenOrientation="portrait"
+            >
+            <!--android:theme="@style/AppTheme.NoActionBar"-->
+
+       <!--     android:label="@string/app_name"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"
+            android:screenOrientation="portrait"-->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".HomePage"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"
+                        android:screenOrientation="portrait">
+        </activity>
+
+        <!--android:theme="@style/AppTheme.NoActionBar"-->
+        <activity
+            android:name=".PathDisplay"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"
+            android:screenOrientation="portrait">
+        </activity>
+    <!--android:theme="@style/AppTheme.NoActionBar-->
+
+
+    </application>
+
+</manifest>

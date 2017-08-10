@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash"
+    android:orientation="vertical">
+    <!--put bend_2 or pink2-->
+    <!--android:background="@color/win_bg"-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+
+        >
+        <!--android:layout_height="wrap_content"-->
+        <!--android:paddingTop="45dp"-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dhan Guru Nanak"
+            android:textSize="40dp"
+            android:textColor="@color/plainWhite"
+            android:textStyle="bold"/>
+        <!--android:text="DGN"-->
+        <!--android:textColor="@color/colorWhite-->
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        >
+        <!--android:paddingBottom="75dp"-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            >
+            <!--android:background="@drawable/marr_img"-->
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
